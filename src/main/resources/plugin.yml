@@ -1,0 +1,11 @@
+name: Tellpart
+version: 0.0.2
+main: bluescreen9.minecraft.bukkit.tellpart.Main
+api-version: 1.19
+description: 'A bukkit teleport plugin'
+commands:
+  tpt:
+  tph:
+  tpr:
+  tpp:
+  home: 

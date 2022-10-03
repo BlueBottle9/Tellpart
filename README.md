@@ -33,11 +33,17 @@ Use /tpp set [name] to set a teleport point. - 使用/tpp set [名字] 来设定
 Use /tpp to [name] to teleport to a point. - 使用/tpp to [名字] 传送到指定传送点
 
 Use /tpp remove [name] to remove a teleport point. - 使用/tpp remove [名字] 来移除传送点
+
+/back
+
+Use /back to teleport the lastest teleporting/death location. - 传送至上一个传送/死亡点
 ```
 
 config.yml:
 
 ```
+move-to-cancel: true #Will it cancel player's teleporting when they move. - 是否在玩家移动时取消传送
+
 home:
 
   enable: true

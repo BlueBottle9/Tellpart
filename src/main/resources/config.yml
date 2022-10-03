@@ -1,0 +1,30 @@
+move-to-cancel: true
+home:
+  enable: true
+  delay: 3
+  could-down: 30
+tpr:
+  enable: true
+  delay: 5
+  could-down: 30
+tpt:
+  enable: true
+  delay: 5
+  could-down: 30
+  valid-time: 300
+tph:
+  enable: true
+  delay: 5
+  could-down: 30
+  valid-time: 300
+tpp:
+  enable: true
+  delay: 5
+  could-down: 30
+  max-points: 10
+back:
+  enable: true
+  delay: 3
+bar:
+  color: 'GREEN'
+  style: 'SOLID'
